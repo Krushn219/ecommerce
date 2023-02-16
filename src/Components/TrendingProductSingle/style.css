@@ -1,0 +1,300 @@
+.tvproduct-wrapper {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.07);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.tvproduct-wrapper .tvproduct-image {
+    overflow: hidden;
+    padding-right: 0;
+}
+.tvproduct-image {
+    position: relative;
+}
+.tvproduct-wrapper .tvproduct-image a {
+    text-align: center;
+    display: block;
+    position: relative;
+}
+.product-miniature .product-thumbnail {
+    display: block;
+}
+.tvproduct-image a {
+    text-align: center;
+}
+.tvproduct-image a img {
+    width: auto;
+    margin: auto;
+}
+.tvproduct-wrapper .tvproduct-hover-img {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    background-color: #fff;
+}
+.thumbnail-container:hover .tvproduct-wrapper .tvproduct-hover-img{
+    opacity: 1;
+    transform: translateX(0px);
+    margin: auto;
+}
+.tvproduct-wrapper:hover {
+    box-shadow: 0 5px 10px 0 rgb(23 84 116 / 18%);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.tvproduct-wrapper:hover .tvproduct-flags {
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.tvproduct-online-new-wrapper {
+    left: 15px;
+    right: auto;
+    text-align: left;
+}
+.tvproduct-flags {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 1;
+    margin: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.tvproduct-flags li {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    margin-bottom: 5px;
+}
+.product-flag.on-sale{
+    color: #17aec9;
+}
+.tvproduct-online-new-wrapper {
+    left: 15px;
+    right: auto;
+    text-align: left;
+}
+.tvproduct-wrapper.grid .tvproduct-hover-btn, .tvproduct-wrapper.grid-2 .tvproduct-hover-btn {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.tvproduct-wrapper .tvproduct-hover-btn .tvproduct-quick-btn {
+    transition-delay: 0.1s;
+}
+.tvproduct-wrapper .tvproduct-hover-btn .tvproduct-cart-btn {
+    transition-delay: 0.2s;
+}
+.tvproduct-wrapper .tvproduct-hover-btn .tvcompare-wrapper {
+    transition-delay: 0.3s;
+}
+.tvproduct-wrapper .tvproduct-hover-btn .tvproduct-wishlist {
+    transition-delay: 0.4s;
+}
+.tvproduct-info-box-wrapper {
+    padding: 15px;
+    text-align: center;
+}
+.btn.add-to-cart.tvproduct-add-to-cart{
+    --bs-btn-border-color: none !important;
+}
+.product-thumbnail{
+    display: flex;
+    justify-content: center;
+}
+.product-thumbnail img{
+    height: 257px;
+    justify-content: center;
+}
+.tvall-product-star-icon svg{
+    font-size: 12px;
+    color: #ffc315;
+    margin: 0 2px;
+    margin-bottom: 5px;
+}
+.tvproduct-hover-btn .tvproduct-quick-btn, .tvproduct-hover-btn .tvproduct-cart-btn, .tvproduct-hover-btn .tvcompare-wrapper.product_id_7, .tvproduct-hover-btn .tvproduct-wishlist{
+    margin: 0 5px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateY(60px);
+    -moz-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    -o-transform: translateY(60px);
+    transform: translateY(60px);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.tvproduct-hover-btn .tvproduct-quick-btn, .tvproduct-hover-btn .tvproduct-cart-btn, .tvproduct-hover-btn .tvcompare-wrapper.product_id_7, .tvproduct-hover-btn .tvproduct-wishlist {
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 50px;
+    color: #000;
+    transition: all 0.4s ease;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+.tvproduct-hover-btn .tvproduct-quick-btn:hover, .tvproduct-hover-btn .tvproduct-cart-btn:hover, .tvproduct-hover-btn .tvcompare-wrapper.product_id_7:hover, .tvproduct-hover-btn .tvproduct-wishlist:hover{
+    border: 1px solid #17aec9;
+}
+.thumbnail-container:hover .tvproduct-hover-btn .tvproduct-quick-btn, .thumbnail-container:hover .tvproduct-hover-btn .tvproduct-cart-btn, .thumbnail-container:hover .tvproduct-hover-btn .tvcompare-wrapper.product_id_7, .thumbnail-container:hover .tvproduct-hover-btn .tvproduct-wishlist{
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+.thumbnail-container:hover .tvproduct-wrapper.grid .tvproduct-hover-btn, .thumbnail-container:hover .tvproduct-wrapper.grid-2 .tvproduct-hover-btn{
+    opacity: 1;
+}
+.tvproduct-hover-btn .tvproduct-quick-btn, .tvproduct-hover-btn .tvproduct-cart-btn, .tvproduct-hover-btn .tvcompare-wrapper.product_id_7, .tvproduct-hover-btn .tvproduct-wishlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tvproduct-hover-btn .tvproduct-cart-btn .add-to-cart img{
+    font-size: 20px;
+}
+.thumbnail-container:hover .thumbnail.product-thumbnail .tvproduct-defult-img{
+    opacity: 0;
+}
+.tvproduct-timer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.tvtimer-wrapper{
+    overflow: hidden;
+    vertical-align: top;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,.07);
+    border-radius: 20px;
+    padding: 0 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+.tvproduct-wrapper .tvproduct-timer-icon {
+    display: inline-block;
+}
+.tvproduct-timer-wrapper{
+    position: relative;
+    text-align: center;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tvproduct-wrapper .tvproduct-timer-wrapper .hours, .tvproduct-wrapper .tvproduct-timer-wrapper .minutes, .tvproduct-wrapper .tvproduct-timer-wrapper .days {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tvproduct-wrapper .tvproduct-timer-wrapper .tvtimer-name {
+    display: none;
+}
+.tvproduct-wrapper .tvtimer-dot {
+    display: inline-block;
+    vertical-align: baseline;
+    margin: 0;
+    font-size: 14px;
+    color: #111;
+}
+.thumbnail-container:hover .tvproduct-timer{
+    display: none;
+}
+@media (max-width: 1399px){
+    .product-thumbnail img{
+        height: 218px;
+    }
+}
+@media (max-width: 1199px){
+    .product-thumbnail img{
+        height: 209px;
+    }
+    .product-description h6{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 0 5px;
+    }
+    .product-price-and-shipping .price{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}

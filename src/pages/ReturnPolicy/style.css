@@ -1,0 +1,69 @@
+.return-policy-item p{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+.return-btn{
+    border: none;
+    background-color: #17aec9 !important;
+    border: 1px solid #17aec9 !important;
+    color: #fff;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.return-btn:hover{
+    background-color: #fff !important;
+    border: 1px solid #17aec9 !important;
+    color: #17aec9 !important;
+}
+.return-btn:hover del{
+    color: #17aec9;
+}
+.resume-btn, .add-wishlist, .write-review-btn{
+    border: none;
+    background-color: #fff !important;
+    border: 1px solid #dddddd !important;
+    color: #17aec9 !important;
+    font-weight: 600;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.about-this-product svg{
+    font-size: 15px;
+    color: #555;
+}
+.about-this-product h6{
+    font-weight: 700;
+}
+.returnpolicy-star svg{
+    padding-right: 10px;
+    color: rgb(119 119 119 / 38%);
+    cursor: pointer;
+}
+.returnpolicy-star svg:hover{
+    color: #17aec9;
+}
+.return-modal textarea{
+    width: 100%;
+    border: 1px solid #dddddd;
+    outline: none;
+    padding: 5px 10px;
+}
+@media (max-width: 991px){
+    .product-iphone h4{
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 575px){
+    .returnpolicy-star svg {
+        padding-right: 7px;
+    }
+    .return-modal textarea {
+        font-size: 14px;
+    }
+}
+@media (max-width: 512px){
+    .add-wishlist{
+        margin-top: 10px;
+    }
+}

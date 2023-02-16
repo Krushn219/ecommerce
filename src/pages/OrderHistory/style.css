@@ -1,0 +1,17 @@
+.order-history-wrapper{
+    background-color: #e5e5e536;
+}
+.order-history-wrapper2{
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    padding: 15px;
+}
+.order-history-main-wrapper{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.order-history-para p{
+    padding: 6px 15px 15px;
+    color: #777;
+    font-weight: 600;
+}

@@ -1,0 +1,17 @@
+.new-address-wrapper{
+    background-color: #e5e5e536;
+}
+.new-address-main-wrapper{
+    padding-bottom: 50px;
+}
+.new-address-wrapper2{
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+.new-address-wrapper2 .user-name p{
+    padding-bottom: 0;
+}
+.main-save{
+    margin: 25px 0 20px!important;
+}
